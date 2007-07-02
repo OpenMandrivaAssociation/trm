@@ -1,6 +1,6 @@
 %define name    trm
 %define version 0.2.1
-%define release %mkrel 4
+%define release %mkrel 5
 
 %define longtitle Application that generates Relatable TRM acoustic fingerprints
 
@@ -16,6 +16,8 @@ Patch: trm-0.2.1-gcc4.patch
 BuildRoot:      %_tmppath/%name-buildroot
 Buildrequires: libmusicbrainz-devel 
 Buildrequires: libvorbis-devel
+Buildrequires: id3lib-devel
+Buildrequires: libmad-devel
 
 %description
 The trm program will decode the first 30 seconds of audio file and
