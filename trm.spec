@@ -1,6 +1,6 @@
 %define name    trm
 %define version 0.2.1
-%define release %mkrel 7
+%define release %mkrel 8
 
 %define longtitle Application that generates Relatable TRM acoustic fingerprints
 
