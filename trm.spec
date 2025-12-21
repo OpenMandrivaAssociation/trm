@@ -14,6 +14,11 @@ URL:            https://www.musicbrainz.org/products/trmgen/download.html
 Source0:        %name-%version.tar.bz2
 Patch: trm-0.2.1-gcc4.patch
 BuildRoot:      %_tmppath/%name-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires: libmusicbrainz-devel 
 Buildrequires: libvorbis-devel
 Buildrequires: id3lib-devel
